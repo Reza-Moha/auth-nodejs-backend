@@ -1,0 +1,11 @@
+### register user
+POST http://localhost:3001/auth/register
+Content-Type: application/json
+
+{
+  "userName": "",
+  "email": "",
+  "phoneNumber": "",
+  "password": "",
+  "confirmPassword": ""
+}
